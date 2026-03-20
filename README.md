@@ -23,7 +23,7 @@ Instead of asking “Where is the user?”, we ask:
 
 To answer this, we combine multiple independent signals and evaluate their consistency before making a decision.
 
-1️⃣ Differentiating Real Users from Spoofed Users
+1️⃣ DIFFERENTIATING REAL USER FROM SPOOFED USERS
 
 📍 Cross-checking Location
 
@@ -79,7 +79,7 @@ We validate claims using external context:
 
 This ensures alignment between digital claims and real-world conditions.
 
-2️⃣ Data Strategy
+2️⃣ DATA STRATEGY
 
 We combine multiple layers of information instead of relying on a single data source:
 
@@ -107,7 +107,7 @@ We analyze behavior over time:
 
 Any pattern that violates real-world constraints is flagged.
 
-🚀 Future Improvements
+🚀 FUTURE IMPROVEMENTS
 
 To strengthen the system further:
 
@@ -117,7 +117,7 @@ To strengthen the system further:
 
 • 🧬 Dynamic trust scoring based on user history
 
-3️⃣ User Experience Balance
+3️⃣ USER EXPERIENCE BALANCE
 
 Security should not negatively impact genuine users.
 
@@ -131,23 +131,19 @@ We follow a risk-based approach:
 
 This ensures genuine users are not penalized while still maintaining strong fraud prevention.
 
-🔄 System Flow
+🔄 SYSTEM FLOW
 
 User submits claim
-      ⬇️
-Collect data (location + device + sensors)
-      ⬇️
-Cross-check and validate signals
-      ⬇️
-Assign risk level
-      ⬇️
-Approve / verify / flag
+→ Collect data (location + device + sensors)
+→ Cross-check and validate signals
+→ Assign risk level
+→ Approve / verify / flag
 
-🏗️ Implementation Plan
+🏗️ IMPLEMENTATION PLAN
 
 The system is designed for practical deployment in phases.
 
-✅ Phase 1 (Immediate)
+✅ PHASE 1 (IMMEDIATE)
 
 • 📍 Location cross-checking
 
@@ -157,13 +153,13 @@ The system is designed for practical deployment in phases.
 
 • ⚙️ Rule-based risk scoring
 
-⚡ Phase 2
+⚡ PHASE 2
 
 • 🧠 Movement consistency validation
 
 • ⚡ On-demand user verification
 
-🚀 Phase 3
+🚀 PHASE 3
 
 • 🔍 Pattern-based fraud detection
 
